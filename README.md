@@ -9,6 +9,20 @@ TickIt is a dynamic to-do list application built with React. It allows users to:
 
 
 
+## Deployment
+To downlode all node packages
+
+```bash
+  npm install
+```
+
+To deploy this project run
+
+```bash
+  npm run dev
+```
+
+
 ## Tech Stack
 
 - Html
