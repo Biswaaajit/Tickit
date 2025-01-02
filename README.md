@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tickit
 
-Currently, two official plugins are available:
+TickIt is a dynamic to-do list application built with React. It allows users to:
+- **Add and Remove Tasks**: Easily manage your to-do items.
+- **Mark Tasks as Done**: A visual effect when completing task.
+- **Edit Tasks**: Make changes to your tasks seamlessly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Tech Stack
+
+- Html
+- Tailwind Css
+- Java Script
+- React
+
+
+
+
+## Live Link
+- [Tickit Link](https://tickit-biswajeets-projects-02e53ecd.vercel.app/) 
