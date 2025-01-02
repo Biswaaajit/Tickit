@@ -2,8 +2,18 @@ import { FaRegEdit } from "react-icons/fa";
 import { LuDiamond } from "react-icons/lu";
 import { MdOutlineDoneOutline } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
+import Proptype from "prop-types";
 
-/* eslint-disable react/prop-types */
+//Prop validation ToDoItem component
+ToDoItem.propTypes = {
+  list: Proptype.object,
+  setList: Proptype.func,
+  lists: Proptype.array,
+  setShow: Proptype.func,
+  setSelectedId: Proptype.func,
+  setSelectedItem: Proptype.func,
+};
+
 function ToDoItem({
   list,
   setList,
@@ -65,6 +75,14 @@ function ToDoItem({
     </div>
   );
 }
+
+// Prop valiadtion of Btn component
+
+Btn.propTypes = {
+  children: Proptype.node,
+  click: Proptype.func,
+};
+
 function Btn({ children, click }) {
   return (
     <button onClick={click} className="text-2xl">

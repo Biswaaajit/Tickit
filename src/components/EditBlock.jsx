@@ -1,5 +1,15 @@
-/* eslint-disable react/prop-types */
 import { RxCross2 } from "react-icons/rx";
+import Proptype from "prop-types";
+
+// Prop validation of EditBlock component
+EditBlock.propTypes = {
+  setShow: Proptype.func,
+  selectedItem: Proptype.string,
+  setSelectedItem: Proptype.func,
+  selectedId: Proptype.oneOfType([Proptype.null, Proptype.number]),
+  lists: Proptype.array,
+  setList: Proptype.func,
+};
 
 function EditBlock({
   setShow,
